@@ -15,7 +15,6 @@ items:
   nameWithType: Microsoft.DocAsCode.SubCommands
   fullName: Microsoft.DocAsCode.SubCommands
   type: Namespace
-  summary: ref to conceptual [!include(for_ref.md)]
   assemblies:
   - docfx
 references:
