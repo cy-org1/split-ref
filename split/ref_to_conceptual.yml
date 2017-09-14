@@ -1,51 +1,37 @@
 ### YamlMime:ManagedReference
 items:
-- uid: Microsoft.DocAsCode.SubCommands
-  commentId: N:Microsoft.DocAsCode.SubCommands
-  id: Microsoft.DocAsCode.SubCommands
+- uid: Microsoft.SqlServer.Server
+  commentId: N:Microsoft.SqlServer.Server
+  id: Microsoft.SqlServer.Server
   children:
-  - Microsoft.DocAsCode.SubCommands.CommandOptionAttribute
-  - Microsoft.DocAsCode.SubCommands.MetadataMergeParameters
-  - Microsoft.DocAsCode.SubCommands.MetadataMerger
-  - Microsoft.DocAsCode.SubCommands.OptionParserException
+  - Microsoft.SqlServer.Server.SqlDataRecord
+  - Microsoft.SqlServer.Server.SqlMetaData
   langs:
   - csharp
   - vb
-  name: Microsoft.DocAsCode.SubCommands
-  nameWithType: Microsoft.DocAsCode.SubCommands
-  fullName: Microsoft.DocAsCode.SubCommands
+  name: Microsoft.SqlServer.Server
+  nameWithType: Microsoft.SqlServer.Server
+  fullName: Microsoft.SqlServer.Server
   type: Namespace
   assemblies:
-  - docfx
+  - System.Data.SqlClient
 references:
-- uid: Microsoft.DocAsCode.SubCommands.OptionParserException
-  commentId: T:Microsoft.DocAsCode.SubCommands.OptionParserException
+- uid: Microsoft.SqlServer.Server.SqlDataRecord
+  commentId: T:Microsoft.SqlServer.Server.SqlDataRecord
   isExternal: false
-  name: OptionParserException
-  nameWithType: OptionParserException
-  fullName: Microsoft.DocAsCode.SubCommands.OptionParserException
-- uid: Microsoft.DocAsCode.SubCommands.MetadataMergeParameters
-  commentId: T:Microsoft.DocAsCode.SubCommands.MetadataMergeParameters
-  parent: Microsoft.DocAsCode.SubCommands
+  name: SqlDataRecord
+  nameWithType: SqlDataRecord
+  fullName: Microsoft.SqlServer.Server.SqlDataRecord
+- uid: Microsoft.SqlServer.Server.SqlMetaData
+  commentId: T:Microsoft.SqlServer.Server.SqlMetaData
+  parent: Microsoft.SqlServer.Server
   isExternal: false
-  name: MetadataMergeParameters
-  nameWithType: MetadataMergeParameters
-  fullName: Microsoft.DocAsCode.SubCommands.MetadataMergeParameters
-- uid: Microsoft.DocAsCode.SubCommands.MetadataMerger
-  commentId: T:Microsoft.DocAsCode.SubCommands.MetadataMerger
+  name: SqlMetaData
+  nameWithType: SqlMetaData
+  fullName: Microsoft.SqlServer.Server.SqlMetaData
+- uid: Microsoft.SqlServer.Server
+  commentId: N:Microsoft.SqlServer.Server
   isExternal: false
-  name: MetadataMerger
-  nameWithType: MetadataMerger
-  fullName: Microsoft.DocAsCode.SubCommands.MetadataMerger
-- uid: Microsoft.DocAsCode.SubCommands.CommandOptionAttribute
-  commentId: T:Microsoft.DocAsCode.SubCommands.CommandOptionAttribute
-  isExternal: false
-  name: CommandOptionAttribute
-  nameWithType: CommandOptionAttribute
-  fullName: Microsoft.DocAsCode.SubCommands.CommandOptionAttribute
-- uid: Microsoft.DocAsCode.SubCommands
-  commentId: N:Microsoft.DocAsCode.SubCommands
-  isExternal: false
-  name: Microsoft.DocAsCode.SubCommands
-  nameWithType: Microsoft.DocAsCode.SubCommands
-  fullName: Microsoft.DocAsCode.SubCommands
+  name: Microsoft.SqlServer.Server
+  nameWithType: Microsoft.SqlServer.Server
+  fullName: Microsoft.SqlServer.Server
