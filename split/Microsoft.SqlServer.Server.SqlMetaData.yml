@@ -5,7 +5,7 @@ items:
   id: SqlMetaData
   parent: Microsoft.SqlServer.Server
   children:
-  - Microsoft.SqlServer.Server.SqlMetaData.#ctor(System.String,System.Data.SqlDbType)
+  - Microsoft.SqlServer.Server.SqlMetaData.#ctor(System.String)
   langs:
   - csharp
   - vb
@@ -24,7 +24,7 @@ items:
   assemblies:
   - System.Data.SqlClient
   namespace: Microsoft.SqlServer.Server
-  summary: "\n<p>Specifies and retrieves metadata information from parameters and columns of <xref href=\"Microsoft.SqlServer.Server.SqlDataRecord\" data-throw-if-not-resolved=\"false\"></xref> objects. This class cannot be inherited.</p>\n"
+  summary: "This class cannot be inherited"
   syntax:
     content: public sealed class SqlMetaData
     content.vb: Public NotInheritable Class SqlMetaData
@@ -36,16 +36,16 @@ items:
   - Public
   - NotInheritable
   - Class
-- uid: Microsoft.SqlServer.Server.SqlMetaData.#ctor(System.String,System.Data.SqlDbType)
-  commentId: M:Microsoft.SqlServer.Server.SqlMetaData.#ctor(System.String,System.Data.SqlDbType)
-  id: '#ctor(System.String,System.Data.SqlDbType)'
+- uid: Microsoft.SqlServer.Server.SqlMetaData.#ctor(System.String)
+  commentId: M:Microsoft.SqlServer.Server.SqlMetaData.#ctor(System.String)
+  id: '#ctor(System.String)'
   parent: Microsoft.SqlServer.Server.SqlMetaData
   langs:
   - csharp
   - vb
   name: SqlMetaData(String, SqlDbType)
   nameWithType: SqlMetaData.SqlMetaData(String, SqlDbType)
-  fullName: Microsoft.SqlServer.Server.SqlMetaData.SqlMetaData(System.String, System.Data.SqlDbType)
+  fullName: Microsoft.SqlServer.Server.SqlMetaData.SqlMetaData(System.String)
   type: Constructor
   source:
     remote:
@@ -58,17 +58,14 @@ items:
   assemblies:
   - System.Data.SqlClient
   namespace: Microsoft.SqlServer.Server
-  summary: "\n<p>Initializes a new instance of the <xref href=\"Microsoft.SqlServer.Server.SqlMetaData\" data-throw-if-not-resolved=\"false\"></xref> class with the specified column name and type.</p>\n"
+  summary: "class with the specified column name and type"
   syntax:
-    content: public SqlMetaData(string name, SqlDbType dbType)
-    content.vb: Public Sub New(name As String, dbType As SqlDbType)
+    content: public SqlMetaData(string name)
+    content.vb: Public Sub New(name As String)
     parameters:
     - id: name
       type: System.String
       description: "\n<p>The name of the column.</p>\n"
-    - id: dbType
-      type: System.Data.SqlDbType
-      description: "\n<p>The SQL Server type of the parameter or column.</p>\n"
   overload: Microsoft.SqlServer.Server.SqlMetaData.#ctor*
   exceptions:
   - type: System.ArgumentNullException
@@ -76,7 +73,7 @@ items:
     description: "\n<p>The <span class=\"paramref\">Name</span> is <span class=\"languagekeyword\">null</span>.</p>\n"
   - type: System.ArgumentException
     commentId: T:System.ArgumentException
-    description: "\n<p>A <span class=\"languagekeyword\">SqlDbType</span> that is not allowed was passed to the constructor as <span class=\"paramref\">dbType</span>.</p>\n"
+    description: "sbc"
   modifiers.csharp:
   - public
   modifiers.vb:
