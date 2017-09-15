@@ -2,7 +2,7 @@
   "build_entry_point": "docs",
   "docsets_to_publish": [
     {
-      "docset_name": "split-ref",
+      "docset_name": "split-ref-cy-org1",
       "build_source_folder": "split",
       "build_output_subfolder": "split-repo",
       "locale": "en-us",
