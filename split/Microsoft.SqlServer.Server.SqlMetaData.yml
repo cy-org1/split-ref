@@ -28,16 +28,6 @@ items:
   syntax:
     content: public sealed class SqlMetaData
     content.vb: Public NotInheritable Class SqlMetaData
-  inheritance:
-  - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   modifiers.csharp:
   - public
   - sealed
