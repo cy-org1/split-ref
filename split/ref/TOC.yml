@@ -1,5 +1,5 @@
 - name: RefIndex
-  href: ../index.md
+  href: ../indexref.md
   universal_conceptual_toc: "/split-repo/conceptual/toc.json"
 - name: RefToConceptual
   href: ../ref_to_conceptual.yml
