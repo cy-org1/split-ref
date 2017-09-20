@@ -12,7 +12,7 @@ items:
   nameWithType: Microsoft.SqlServer.Server
   fullName: Microsoft.SqlServer.Server
   type: Namespace
-  summary: "[link](for_ref.md)"
+  summary: "[link](index.md)"
   assemblies:
   - System.Data.SqlClient
 references:
