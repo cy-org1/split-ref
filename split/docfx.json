@@ -1,6 +1,5 @@
 {
   "build": {
-    "customLinkResolver": "CustomizeHrefForFileMap",
     "content": [
       {
         "files": [
