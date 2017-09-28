@@ -1,1 +1,1 @@
-# Welcome to split-ref repo!
+# Welcome to split-ref!
