@@ -17,7 +17,7 @@
       "build_entry_point": "docs",
       "template_folder": "_themes",
       "enable_filemap_share": true,
-      "enable_xrefmap_share": true,
+      "enable_xrefmap_share": true
     }
   ],
   "Targets": {
