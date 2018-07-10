@@ -1,6 +1,6 @@
 {
   "build": {
-    "customLinkResolver": "CustomizeHrefForFileMap",
+    "xrefService": ["https://xref.docs.microsoft.com/query?uid={uid}&vendor=dotnet-api-docs-master|> removeHost"],
     "content": [
       {
         "files": [

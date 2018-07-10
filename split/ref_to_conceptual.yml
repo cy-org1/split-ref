@@ -12,7 +12,7 @@ items:
   nameWithType: Microsoft.SqlServer.Server
   fullName: Microsoft.SqlServer.Server
   type: Namespace
-  summary: "[link](for_ref.md)"
+  summary: "[link](for_ref.md), It used the <xref:System.Console.WriteLine%2A?displayProperty=nameWithType> method to print that message"
   assemblies:
   - System.Data.SqlClient
 references:
